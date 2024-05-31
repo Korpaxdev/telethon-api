@@ -1,0 +1,1 @@
+PHONE_REGEXP_PATTERN = r"^7\d{10}"
