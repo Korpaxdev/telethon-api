@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "telethon-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["korpaxdev <korpaxdev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+telethon = "^1.35.0"
+qrcode = "^7.4.2"
+fastapi = "^0.111.0"
+pydantic-settings = "^2.2.1"
+black = "^24.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
